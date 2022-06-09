@@ -26,7 +26,7 @@ myNum.addEventListener("change", () => {
                 }
             }
         }
-        myTetxArea.innerHTML += rowText;
+        myTetxArea.innerHTML += rowText + '\r\n';
     }
 
 })
