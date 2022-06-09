@@ -8,7 +8,7 @@ myNum.addEventListener("change", () => {
     for (let row = 0; row <2* myNum.value -1; row++){
         //this loop is for columns
         let rowText = '';
-        // if statement is for 
+        // if statement is for adjusting width of diamond
         if (row < myNum.value) {
             for (let col = 0; col<2*myNum.value-1; col++){
                 if(col == median - row || col == median + row){
@@ -28,5 +28,4 @@ myNum.addEventListener("change", () => {
         }
         myTetxArea.innerHTML += rowText + '\r\n';
     }
-
 })
